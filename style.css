@@ -7,18 +7,25 @@
 }
 
 body{
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(67, 67, 67);
     color: white;
     font-family: 'Poppins', sans-serif;
-    max-width: 1200px;
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
     padding: 15px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -58,11 +65,12 @@ h1{
     font-weight: 200;
 }
 
-main{
+.main{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 5%;
 }
+
 
 h2{
     font-size: 46px;
